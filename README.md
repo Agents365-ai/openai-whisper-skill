@@ -1,8 +1,8 @@
-# OpenAI Whisper Skill
+# OpenAI Whisper Guide
 
 [中文文档](README_CN.md)
 
-A Claude Code skill for automatic speech recognition using the optimal Whisper implementation for your hardware.
+A guide for automatic speech recognition using the optimal Whisper implementation for your hardware. Works with Claude Code and Opencode.
 
 ## Features
 
@@ -23,7 +23,7 @@ This skill is designed for use with [Claude Code](https://claude.ai/claude-code)
 >
 > "Install whisper and transcribe podcast.mp3"
 
-Or invoke directly with `/openai-whisper`.
+Or invoke directly with `/openai-whisper-guide`.
 
 ```bash
 # Detect your environment
@@ -48,8 +48,8 @@ Use `turbo` model for most tasks—it offers near large-v3 accuracy at 8x speed.
 ## File Structure
 
 ```
-openai-whisper/
-├── SKILL.md                    # Main skill documentation
+openai-whisper-guide/
+├── SKILL.md                    # Main documentation
 ├── scripts/
 │   └── detect_env.py          # Environment detection
 └── .claude/

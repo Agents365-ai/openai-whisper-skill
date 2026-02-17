@@ -1,10 +1,10 @@
 ---
-name: openai-whisper
+name: openai-whisper-guide
 description: Use when transcribing audio/video to text, installing speech recognition, or detecting hardware for optimal Whisper implementation. Covers openai-whisper, whisper.cpp, faster-whisper, mlx-whisper.
 user_invocable: true
 ---
 
-# OpenAI Whisper Skill
+# OpenAI Whisper Guide
 
 Automatic speech recognition using the optimal Whisper implementation for your hardware.
 

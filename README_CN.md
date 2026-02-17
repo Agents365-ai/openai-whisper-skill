@@ -1,6 +1,6 @@
-# OpenAI Whisper 技能
+# OpenAI Whisper 指南
 
-一个 Claude Code 技能，根据你的硬件自动选择最优的 Whisper 语音识别实现。
+根据你的硬件自动选择最优的 Whisper 语音识别实现。适用于 Claude Code 和 Opencode。
 
 ## 功能特性
 
@@ -21,7 +21,7 @@
 >
 > "安装 whisper 并转录 podcast.mp3"
 
-或直接调用 `/openai-whisper`。
+或直接调用 `/openai-whisper-guide`。
 
 ```bash
 # 检测你的环境
@@ -46,8 +46,8 @@ python3 scripts/detect_env.py
 ## 文件结构
 
 ```
-openai-whisper/
-├── SKILL.md                    # 主技能文档
+openai-whisper-guide/
+├── SKILL.md                    # 主文档
 ├── scripts/
 │   └── detect_env.py          # 环境检测脚本
 └── .claude/
