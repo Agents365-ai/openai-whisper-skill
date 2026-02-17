@@ -14,6 +14,12 @@
 本技能适用于 [Claude Code](https://claude.ai/claude-code) 或 [Opencode](https://github.com/opencode-ai/opencode)。只需告诉 Claude：
 
 > "转录这个音频文件"
+>
+> "把 video.mp4 转成 SRT 字幕"
+>
+> "我的 Mac 适合用哪个 Whisper？"
+>
+> "安装 whisper 并转录 podcast.mp3"
 
 或直接调用 `/openai-whisper`。
 

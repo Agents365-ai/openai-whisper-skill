@@ -16,6 +16,12 @@ A Claude Code skill for automatic speech recognition using the optimal Whisper i
 This skill is designed for use with [Claude Code](https://claude.ai/claude-code) or [Opencode](https://github.com/opencode-ai/opencode). Simply tell Claude:
 
 > "Transcribe this audio file"
+>
+> "Convert video.mp4 to SRT subtitles"
+>
+> "What's the best Whisper for my Mac?"
+>
+> "Install whisper and transcribe podcast.mp3"
 
 Or invoke directly with `/openai-whisper`.
 
